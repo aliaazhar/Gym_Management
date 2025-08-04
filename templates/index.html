@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="{% static 'home/css/bootstrap.min.css' %}">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{% static 'home/css/font-awesome.min.css' %}">
+<!--    <link rel="stylesheet" href="{% static 'home/css/font-awesome.min.css' %}">-->
+
+	<!-- Font Awesome CDN ( for icon ) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="{% static 'home/css/animate.css' %}">
@@ -172,9 +176,9 @@
 								<h2>Baki</h2>
 								<h3>Body Trainer</h3>
 								<ul class="social-icon">
-									<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
-									<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
-									<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+									<li><a href="#" class="fab fa-facebook-f wow fadeInUp" data-wow-delay="1s"></a></li>
+									<li><a href="#" class="fab fa-x-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+									<li><a href="#" class="fab fa-instagram wow fadeInUp" data-wow-delay="1.9s"></a></li>
 								</ul>
 							</div>
 						</div>
@@ -193,9 +197,9 @@
 								<h2>Goku</h2>
 								<h3>Fitness Trainer</h3>
 								<ul class="social-icon">
-									<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
-									<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
-									<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+									<li><a href="#" class="fab fa-facebook-f wow fadeInUp" data-wow-delay="1s"></a></li>
+									<li><a href="#" class="fab fa-x-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+									<li><a href="#" class="fab fa-instagram wow fadeInUp" data-wow-delay="1.9s"></a></li>
 								</ul>
 							</div>
 						</div>
@@ -214,9 +218,9 @@
 								<h2>Tanjiro</h2>
 								<h3>Yoga Teacher</h3>
 								<ul class="social-icon">
-									<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
-									<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
-									<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+									<li><a href="#" class="fab fa-facebook-f wow fadeInUp" data-wow-delay="1s"></a></li>
+									<li><a href="#" class="fab fa-x-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+									<li><a href="#" class="fab fa-instagram wow fadeInUp" data-wow-delay="1.9s"></a></li>
 								</ul>
 							</div>
 						</div>
@@ -279,7 +283,7 @@
 				<div class="blog-thumb">
 					<span class="blog-date">Body Fitness / July 2, 2016</span>
 					<h3 class="blog-title"><a href="blog-single.html">How to get a fitness model body?</a></h3>
-					<h5 id="blog-author">by David Walker</h5>
+					<h5 id="blog-author1">by David Walker</h5>
 				</div>
 			</div>
 
@@ -287,7 +291,7 @@
 				<div class="blog-thumb">
 					<span class="blog-date">Healthy Fit / June 8, 2016</span>
 					<h3 class="blog-title"><a href="blog-single.html">Personal Fitness Tips</a></h3>
-					<h5 id="blog-author">by George</h5>
+					<h5 id="blog-author3">by George</h5>
 				</div>
 			</div>
 
@@ -295,7 +299,7 @@
 				<div class="blog-thumb">
 					<span class="blog-date">Gym Services / May 9, 2016</span>
 					<h3 class="blog-title"><a href="blog-single.html">Efficient Workout Plans</a></h3>
-					<h5 id="blog-author">by Mary Louis</h5>
+					<h5 id="blog-author4">by Mary Louis</h5>
 				</div>
 			</div>
 
@@ -303,7 +307,7 @@
 				<div class="blog-thumb">
 					<span class="blog-date">Practice Aerobics / April 18, 2016</span>
 					<h3 class="blog-title"><a href="blog-single.html">How to practice Aerobics?</a></h3>
-					<h5 id="blog-author">by Michael Fit</h5>
+					<h5 id="blog-author5">by Michael Fit</h5>
 				</div>
 			</div>
 			
@@ -321,7 +325,10 @@
 
 			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.9s">
 				<h2>Our Prices</h2>
-				<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+				<h4><p style="font-style: italic;">Skip the excuses, not the workouts.<br>
+						We’ve got a plan that fits your goals and your wallet.</p>
+				</h4>
+
 			</div>
 
 			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1s">
@@ -387,26 +394,28 @@
 
 				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
 					<i class="fa fa-quote-left"></i>
-					<h3>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</h3>
-					<h4>Sandar ( Fashion Designer )</h4>
+					<h3>"At 45, I thought I was too late to start — but the yoga sessions here gave me a new life.
+						My back pain is gone and my energy is back!"</h3>
+					<h4>Rohit Chaudhary ( School Teacher )</h4>
 				</div>
 
 				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
 					<i class="fa fa-quote-left"></i>
-					<h3>Yes! Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue.</h3>
-					<h4>James Job ( Social Assistant )</h4>
+					<h3>"This gym helped me get back in shape after an injury.
+						The trainers focused on safe recovery while still pushing my limits. Truly grateful!"</h3>
+					<h4>Vikram Singh ( Ex-Athlete )</h4>
 				</div>
 
 				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
 					<i class="fa fa-quote-left"></i>
-					<h3>Sed dapibus rutrum lobortis. Sed nec interdum nunc, quis sodales ante. Maecenas volutpat congue.</h3>
-					<h4>Mark Otto ( New Cyclist )</h4>
+					<h3>"I used to hate working out, now I look forward to it. The energy, the community, the results — all amazing!" </h3>
+					<h4> Priya R. ( College Student ) </h4>
 				</div>
 
 				<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
 					<i class="fa fa-quote-left"></i>
-					<h3>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus.</h3>
-					<h4>David Moore ( Pro Boxer )</h4>
+					<h3>"In just 4 months, I lost 8 kg and gained muscle — all thanks to their customized workout and diet guidance. No BS, just results". </h3>
+					<h4>Sameer Khan ( Influencer )</h4>
 				</div>
 				
 			</div>
@@ -425,7 +434,10 @@
 
 			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
 				<h2>About Fitness</h2>
-				<p>Nunc id turpis tincidunt dui volutpat hendrerit et efficitur dolor. Morbi quis tempor felis, ut dictum ipsum. Praesent venenatis rutrum interdum.</p>
+				<p> We’re the kind of gym that actually remembers your name, cheers for your small wins, and won’t roast you <strong> too hard </strong> for skipping leg day.
+					Whether you’re lifting heavy, stretching it out, sweating buckets, or just here for the vibe — this is your space.
+					Progress feels personal here, and showing up counts just as much as the reps.
+					No egos, no pressure — just real people, doing real work, <strong>together </strong>. </p>
 			</div>
 
 			<div class="wow fadeInUp col-md-5 col-sm-4"  data-wow-delay="0.9s">
@@ -442,40 +454,27 @@
 
 			<div class="wow fadeInUp col-md-3 col-sm-4" data-wow-delay="1s">
 				<h2>Follow us</h2>
+
 				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="1s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="1.6s"></a></li>
-					<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
-					<li><a href="#" class="fa fa-google-plus wow fadeIn" data-wow-delay="2s"></a></li>
+						<li><a href="https://www.facebook.com/" class="fab fa-facebook-f wow fadeIn" data-wow-delay="1s"></a></li>
+						<li><a href="https://x.com/" class="fab fa-x-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+						<li><a href="https://www.instagram.com/" class="fab fa-instagram wow fadeIn" data-wow-delay="2s"></a></li>
+						<li><a href="https://www.google.com/" class="fab fa-google-plus-g wow fadeIn" data-wow-delay="2s"></a></li>
 				</ul>
+
 			</div>
 
 			<div class="clearfix"></div>
 
 			<div class="col-md-12 col-sm-12">
-				<p class="copyright-text">Copyright &copy; 2016 Your Company 
-                    
-                    | Design: <a rel="nofollow" href="http://www.templatemo.com/page/1" target="_parent">Templatemo</a></p>
+				<p class="copyright-text">Copyright &copy; 2024 KongFitness
 			</div>
 			
 		</div>
 	</div>
 </footer>
 
-<!-- Home Section with backstretch slider -->
-<section id="home" class="parallax-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h3>it's time to start your</h3>
-                <h1>fitness training</h1>
-                <hr>
-                <a href="#overview" class="smoothScroll btn btn-default">Get Started</a>
-            </div>
-        </div>
-    </div>		
-</section>
+
 
 <!-- =========================
      SCRIPTS   
