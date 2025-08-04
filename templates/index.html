@@ -3,10 +3,9 @@
 <head>
 {% load static %}
 <!--
-Fitness Template
-http://www.templatemo.com/tm-487-fitness
+
 -->
-<title>Fitness - Responsive HTML Template</title>
+<title> KongFit </title>
 <meta name="description" content="">
 <meta name="author" content="">
 <meta charset="UTF-8">
@@ -20,7 +19,7 @@ http://www.templatemo.com/tm-487-fitness
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{% static 'home/css/font-awesome.min.css' %}">
-    
+
     <!-- Animate.css -->
     <link rel="stylesheet" href="{% static 'home/css/animate.css' %}">
     
@@ -35,6 +34,9 @@ http://www.templatemo.com/tm-487-fitness
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
 
+<!--	&lt;!&ndash; Add favicon to prevent 404 error &ndash;&gt;-->
+<!--<link rel="shortcut icon" href="{% static 'home/images/favicon.ico' %}" type="image/x-icon">-->
+
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50" data-static="{% static '' %}">
 <!-- Slider image paths -->
@@ -44,8 +46,6 @@ http://www.templatemo.com/tm-487-fitness
      style="display: none;">
 </div>
 
-<!-- Add favicon to prevent 404 error -->
-<link rel="shortcut icon" href="{% static 'home/images/favicon.ico' %}" type="image/x-icon">
 
 <!-- Initialize slider with correct paths -->
 <script>
@@ -84,7 +84,7 @@ http://www.templatemo.com/tm-487-fitness
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand">Fitness</a>
+			<a href="#" class="navbar-brand">KongFit</a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right main-navigation">
@@ -110,7 +110,7 @@ http://www.templatemo.com/tm-487-fitness
 
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
 				<h3 class="wow bounceIn" data-wow-delay="0.9s">Hello! you are welcome to</h3>
-				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Professional<br>Fitness Club</h1>
+				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Professional<br>KongFit Club</h1>
 				<a href="#overview" class="wow fadeInUp smoothScroll btn btn-default" data-wow-delay="2s">LEARN MORE</a>
 			</div>
 
@@ -128,16 +128,17 @@ http://www.templatemo.com/tm-487-fitness
 
 			<div class="col-md-6 col-sm-12">
 				<img src="{% static 'home/images/overview-img.jpg' %}" class="img-responsive" alt="Overview">
-				<blockquote class="wow fadeInUp" data-wow-delay="1.9s">Fitness is free website template that can be used for any company. You may download, modify and use this layout for your website.</blockquote>
+				<blockquote class="wow fadeInUp" data-wow-delay="1.9s">"Train Smart. Stay Strong. Live Better.
+					Your Body. Your Goals. Your Gym.".</blockquote>
 			</div>
 
 			<div class="col-md-1"></div>
 
 			<div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
 				<div class="overview-detail">
-					<h2>About Fitness</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat.</p>
-					<p>Fitness web template includes total 2 pages. This is an index (main) page and another is a <a href="blog-single.html">blog page</a>.</p>
+					<h2>About KongFit</h2>
+					<p>We’re dedicated to helping individuals of all fitness levels improve their physical and mental well-being. Our mission is to provide a supportive space where fitness is a lifestyle, not just a goal</p>
+					<p>Read real stories, get practical advice, and learn how to level up your workouts <a href="blog-single.html">blog page</a>.</p>
 					<a href="#trainer" class="btn btn-default smoothScroll">Let us begin</a>
 				</div>
 			</div>
@@ -158,15 +159,17 @@ http://www.templatemo.com/tm-487-fitness
 
 			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
 				<h2>our Trainers</h2>
-				<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+				<strong> Best Trainers "Expert Guidance. Personal Support." </strong> <br>
+				<p> Our trainers provide personalized plans and motivation, so you stay on track and get the results you deserve.</p>
+
 			</div>
 
 			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s">
 				<div class="trainer-thumb">
-					<img src="{% static 'home/images/trainer-img1.jpg' %}" class="img-responsive" alt="Trainer">
+					<img src="{% static 'home/images/baki.jpg' %}" class="img-responsive" alt="Trainer">
 						<div class="trainer-overlay">
 							<div class="trainer-des">
-								<h2>Jenny</h2>
+								<h2>Baki</h2>
 								<h3>Body Trainer</h3>
 								<ul class="social-icon">
 									<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
@@ -176,15 +179,18 @@ http://www.templatemo.com/tm-487-fitness
 							</div>
 						</div>
 				</div>
-				<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</p>
+				<p>Baki Hanma is a highly dedicated body trainer known for his strength-focused training style and disciplined approach.
+					With deep knowledge in muscle building and physical conditioning,
+					he helps clients achieve powerful transformations.
+					He believes,<b>“True strength is built by challenging your limits every day.”</b> </p>
 			</div>
 
 			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="2s">
 				<div class="trainer-thumb">
-					<img src="{% static 'home/images/trainer-img2.jpg' %}" class="img-responsive" alt="Trainer">
+					<img src="{% static 'home/images/goku.jpg' %}" class="img-responsive" alt="Trainer">
 						<div class="trainer-overlay">
 							<div class="trainer-des">
-								<h2>Marry</h2>
+								<h2>Goku</h2>
 								<h3>Fitness Trainer</h3>
 								<ul class="social-icon">
 									<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
@@ -194,15 +200,18 @@ http://www.templatemo.com/tm-487-fitness
 							</div>
 						</div>
 				</div>
-				<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</p>
+				<p>Goku is a passionate body trainer who brings energy, determination,
+					and focus to every workout. With years of experience in strength and endurance training,
+					he pushes clients to grow stronger — both mentally and physically.
+					His belief: <b>“The only limits that exist are the ones you don’t break.” </b></p>
 			</div>
 
 			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="2.3s">
 				<div class="trainer-thumb">
-					<img src="{% static 'home/images/trainer-img3.jpg' %}" class="img-responsive" alt="Trainer">
+					<img src="{% static 'home/images/tanjiro.jpg' %}" class="img-responsive" alt="Trainer">
 						<div class="trainer-overlay">
 							<div class="trainer-des">
-								<h2>Olivia</h2>
+								<h2>Tanjiro</h2>
 								<h3>Yoga Teacher</h3>
 								<ul class="social-icon">
 									<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
@@ -212,7 +221,10 @@ http://www.templatemo.com/tm-487-fitness
 							</div>
 						</div>
 				</div>
-				<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</p>
+				<p>Tanjiro Kamado is a calm and compassionate yoga instructor who guides clients toward balance, flexibility, and inner strength.
+					With a focus on mindful breathing and body awareness,
+					his sessions promote both physical well-being and mental clarity.
+					He believes: <b>“Peace begins within — move with purpose, breathe with heart.” </b></p>
 			</div>
 
 		</div>
@@ -259,7 +271,8 @@ http://www.templatemo.com/tm-487-fitness
 
 			<div class="col-md-12 col-sm-12 text-center">
 				<h2>Fitness Blog</h2>
-				<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+				<p>"Explore expert tips, workouts, and wellness insights to fuel your fitness journey.
+					Stay inspired, stay strong."</p>
 			</div>
 
 			<div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s">
